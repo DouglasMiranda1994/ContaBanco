@@ -18,9 +18,12 @@ public class ContaTerminal {
         System.out.println("Digite seu saldo: ");
         double saldo = scan.nextDouble();
 
+        System.out.println("Conta criada");
         System.out.println("Conta: " + numeroConta);
         System.out.println("Agência: " + agencia);
         System.out.println("Nome: " + nome);
         System.out.println("Saldo: " + saldo);
+
+
     }
 }
